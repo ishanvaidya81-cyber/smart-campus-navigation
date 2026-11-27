@@ -1,0 +1,59 @@
+{
+    "locations": [
+        "Main Gate",
+        "Academic Block A",
+        "Academic Block B",
+        "Library",
+        "Cafeteria",
+        "Sports Complex",
+        "Hostel Block",
+        "Old Annex"
+    ],
+    "paths": [
+        {
+            "from": "Main Gate",
+            "to": "Academic Block A",
+            "distance": 120
+        },
+        {
+            "from": "Main Gate",
+            "to": "Cafeteria",
+            "distance": 200
+        },
+        {
+            "from": "Academic Block A",
+            "to": "Academic Block B",
+            "distance": 150
+        },
+        {
+            "from": "Academic Block A",
+            "to": "Library",
+            "distance": 300
+        },
+        {
+            "from": "Academic Block B",
+            "to": "Library",
+            "distance": 100
+        },
+        {
+            "from": "Academic Block B",
+            "to": "Cafeteria",
+            "distance": 180
+        },
+        {
+            "from": "Library",
+            "to": "Hostel Block",
+            "distance": 250
+        },
+        {
+            "from": "Cafeteria",
+            "to": "Sports Complex",
+            "distance": 220
+        },
+        {
+            "from": "Sports Complex",
+            "to": "Hostel Block",
+            "distance": 160
+        }
+    ]
+}
